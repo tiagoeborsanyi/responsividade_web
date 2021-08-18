@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:responsividade_web/loja_virtual.dart';
+import 'package:responsividade_web/widget/tamanho_textos.dart';
 // import 'package:responsividade_web/regras_layout.dart';
 // import 'package:responsividade_web/orientacao.dart';
 // import 'package:responsividade_web/responsividade_media_query.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Web',
       debugShowCheckedModeBanner: false,
-      home: LojaVirtual(),
+      home: TamanhoTextos(),
     );
   }
 }
